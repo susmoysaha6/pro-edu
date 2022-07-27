@@ -11,4 +11,8 @@
     #carousel-heading {
         font-size: 20px;
     }
+
+    .course-img {
+        width: 100%;
+    }
 }
