@@ -1,0 +1,14 @@
+.slider-img {
+    filter: brightness(50%);
+}
+
+@media screen and (max-width:767px) {
+    .slider-img {
+        height: 250px;
+        object-fit: cover;
+    }
+
+    #carousel-heading {
+        font-size: 20px;
+    }
+}
