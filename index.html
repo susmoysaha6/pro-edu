@@ -34,22 +34,20 @@
                                 <a class="nav-link" href="#courses">Courses</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Deals</a>
+                                <a class="nav-link" href="#deal">Deals</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#success">Success</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Success</a>
+                                <a class="nav-link" href="#about">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Register</a>
+                                <a class="nav-link" href="#register">Register</a>
                             </li>
                         </ul>
-                        <button class="btn btn-outline-primary">Register</button>
+                        <button class="btn btn-outline-primary " data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Register</button>
                     </div>
 
                 </div>
@@ -213,7 +211,7 @@
                 <img src="images/working.png" class="img-fluid" alt="">
             </div>
             <div class="bg-light ps-2 pe-5 w-50 full-width">
-                <h1>Explore The elearning Institute</h1>
+                <h1>Explore The E-learning Institute</h1>
                 <p class="text-muted">We prodive quality content created by world class instructor from top universities
                     across the
                     world.
@@ -238,6 +236,57 @@
             </div>
         </section>
         <!-- explore section end  -->
+        <!-- ready to join section start -->
+        <section
+            class="container bg-primary rounded text-white my-5 d-flex flex-column flex-lg-row align-items-center justify-content-evenly py-5"
+            id="register">
+            <div class="px-5 text-center text-lg-start">
+                <h1>Ready to join?</h1>
+                <p class="text-wrap">Wanna learn latest technology from our world class instractor? Submit you e-mail
+                    and <br> set
+                    a strong
+                    password. Hurry up! Don't miss the chance.</p>
+            </div>
+            <div class="px-5">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn bg-white text-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade text-muted" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Submit you info</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="form-floating mb-3">
+                                    <input type="email" class="form-control" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Email address</label>
+                                </div>
+                                <div class="form-floating">
+                                    <input type="password" class="form-control" id="floatingPassword"
+                                        placeholder="Password">
+                                    <label for="floatingPassword">Password</label>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ready to join section end -->
+
 
     </main>
     <!-- bootstrap js link  -->
